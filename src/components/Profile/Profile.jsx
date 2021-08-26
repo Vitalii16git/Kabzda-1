@@ -1,12 +1,12 @@
 import s from './Profile.module.css';
 import './MyPosts/Post/Post';
 import MyPosts from './MyPosts/MyPosts';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 const Profile = () => {
   return (
-    <div className={s.content}>
-      <textarea></textarea>
-      <button>add post</button>
+    <div>
+      <ProfileInfo />
       <MyPosts />
     </div>
   );
